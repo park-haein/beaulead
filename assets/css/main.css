@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* main.css - 회사 메인페이지 */
+
+/* 회사소개 */
+.beau_main{ max-width:1024px;padding:68px 24px 0; margin:0 auto; }
+.beau_info{display: flex; justify-content:center; align-items:center;  }
+.beau_info_el{display:flex; justify-content:center; align-items:center; flex-direction:column; }
+.beau_info-title{margin:60px 0 24px; font-size:36px; font-weight:900; color:var(--color-brand-400); text-align:center; }
+.beau_info-txt{font-size:18px; color:var(--color-gray-300);text-align:center;}
+.btn-chat-free{ display:flex; justify-content:center; align-items:center;height:52px; line-height:52px; padding:0 18px; margin:24px 0; border-radius:12px; background-color:var(--color-brand-400); font-size:18px; font-weight:500; color:var(--color-gray-100); } 
+.btn-chat-free:hover{background:var(--color-gray-500); transition:0.3s; }
+.ico-star{display:inline-block; margin:0 0 0 4px; width:16px; height:16px; background:url("../imgs/ico_star.png") no-repeat center/ 100%; }
+.beau_info-img{width:fit-content; border-radius:24px; overflow: hidden; }
+.beau_info-img img {display:block; width:100%; object-fit:contain;}
+
+/* 상품소개 */
+.beau_item{width:100%; margin:72px auto 0;}
+.beau_item_el{display:flex; justify-content:center; align-items:center;flex-direction:column; padding:64px 0 0; }
+.beau_item_el h1 { margin:16px 0;font-size:32px; font-weight:600; text-align:center;}
+.beau_item_el p { margin:0 0 24px; }
+.beau_item-img {width:100%; border-radius:24px; overflow: hidden; }
+.beau_item-img img {display:block; width:100%; object-fit:cover; }
+
+/* 팀소개 */
+.beau_team{ display:flex; justify-content:space-between; align-items:center;width:100%; padding:24px 12px 24px 36px; margin:56px 0; border-radius:16px; background-color:#f5f5f5; }
+.beau_team_el{ }
+.beau_team_el h1 { margin:0 0 12px;font-size:28px; font-weight:700;}
+.beau_team_el p { line-height:20px;font-size:14px; font-weight:400; color:var(--color-gray-400);}
+.btn-beau_team{ display:flex; justify-content:center; align-items:center;height:36px; line-height:36px; padding:0 16px; margin:24px 0 0; border-radius:8px; background-color:var(--color-brand-400);}
+.btn-beau_team p {font-weight:500; color:var(--color-gray-100); }
+.beau_team-img{width:240px; }
+.beau_team-img img { display:block;width:100%; margin:0 auto; } 
+
+
+/* tablet 규격 */
+@media screen and (max-width: 1023px){
+    .g_header{padding:12px;}
+    .g_header_wrap{justify-content:center;}
+    .g_nav{display:none; }
+    .beau_team{flex-direction:column-reverse; padding:24px; }
+    .g_footer{flex-direction:column-reverse; }
+
+}
+

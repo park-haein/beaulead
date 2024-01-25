@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* font.css - 기본 폰트 pretendard */
+
+@font-face {
+	font-weight: 900;
+	font-family: 'Pretendard';
+	src:url('../../font/Pretendard-ExtraBold.otf') format('opentype'),
+		url('../../font/Pretendard-ExtraBold.woff2') format('woff2'),
+		url('../../font/Pretendard-ExtraBold.woff') format('woff'),
+		url('../../font/Pretendard-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-weight: 700;
+	font-family: 'Pretendard';
+	src:url('../../font/Pretendard-Bold.otf') format('opentype'),
+		url('../../font/Pretendard-Bold.woff2') format('woff2'),
+		url('../../font/Pretendard-Bold.woff') format('woff'),
+		url('../../font/Pretendard-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-weight: 600;
+	font-family: 'Pretendard';
+	src:url('../../font/Pretendard-SemiBold.otf') format('opentype'),
+		url('../../font/Pretendard-SemiBold.woff2') format('woff2'),
+		url('../../font/Pretendard-SemiBold.woff') format('woff'),
+		url('../../font/Pretendard-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-weight: 400;
+	font-family: 'Pretendard';
+	src:url('../../font/Pretendard-Regular.otf') format('opentype'),
+		url('../../font/Pretendard-Regular.woff2') format('woff2'),
+		url('../../font/Pretendard-Regular.woff') format('woff'),
+		url('../../font/Pretendard-Regular.ttf') format('truetype');
+}
