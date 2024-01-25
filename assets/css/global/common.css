@@ -6,7 +6,7 @@
 .g_header {position:fixed; top:-1px; right:0;bottom:0;left:0; height:68px; padding:12px 0 12px 12px;  background-color:var(--color-gray-100); }
 .g_header_wrap {display:flex;justify-content:space-between; align-items:center;max-width:1200px;height:100%; margin:0 auto; }
 .g_header.shadow{box-shadow:0 0 10px rgba(0,0,0,0.3);}
-.logo {flex:0 0 110px; width:110px; height:40px; background:url("../../imgs/logo.png") no-repeat center / 100%; text-indent:-9999px;}
+.logo {flex:0 0 110px; width:110px; height:40px; background:url("../../../assets/imgs/logo.png") no-repeat center / 100%; text-indent:-9999px;}
 
 .g_nav{display:flex; justify-content:flex-end; align-items:center;width:100%;max-width:280px; height:100%; }
 .g_nav button {width:calc(100% / 4); height:100%; font-size:16px; font-weight:700; color:var(--color-gray-500); }
@@ -34,9 +34,9 @@
 
 /* SNS - 소셜 바로가기 버튼 */
 .btn-sns {width:40px; height:40px; border-radius:12px;text-indent:-9999px; }
-.btn-sns_facebook{background:var(--color-gray-300) url("../../imgs/ico_sns_facebook.png") no-repeat center / auto 28px; }
-.btn-sns_youtube{ margin:0 8px;background:var(--color-gray-300)  url("../../imgs/ico_sns_youtube.png") no-repeat center / auto 28px; }
-.btn-sns_instagram{background:var(--color-gray-300)  url("../../imgs/ico_sns_instagram.png") no-repeat center / auto 28px; }
+.btn-sns_facebook{background:var(--color-gray-300) url("../../../imgs/ico_sns_facebook.png") no-repeat center / auto 28px; }
+.btn-sns_youtube{ margin:0 8px;background:var(--color-gray-300)  url("../../../imgs/ico_sns_youtube.png") no-repeat center / auto 28px; }
+.btn-sns_instagram{background:var(--color-gray-300)  url("../../../imgs/ico_sns_instagram.png") no-repeat center / auto 28px; }
 
 /* badge - 뱃지 */
 .g_badge-txt{ display:inline-block; height:36px; line-height:36px; padding:0 24px; border-radius:32px; background-color:var(--color-brand-400); font-size:18px; font-weight:600; color:var(--color-gray-100); }

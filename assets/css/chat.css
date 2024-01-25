@@ -37,7 +37,7 @@
 .chat_list.customer .chat_bubble{align-items:flex-end; }
 .chat_list.customer .chat_bubble_box{flex-direction:row-reverse; }
 .chat_list.customer .chat_profile{justify-content:flex-end; }
-.chat_list.customer .chat_bubble_box-txt{ padding:8px 12px;margin:0 0 0 4px; border-radius:16px 16px 0 16px; background-color:var(--color-brand-400); color:var(--color-gray-100); }
+.chat_list.customer .chat_bubble_box-txt{margin:0 0 0 4px; padding:8px 12px; border-radius:16px 16px 0 16px; background-color:var(--color-brand-400); color:var(--color-gray-100); }
 
 /* 채팅입력 영역 */
 .chat_input{flex:1 1 auto; position:relative; width:100%; z-index:20; }
