@@ -34,9 +34,9 @@
 
 /* SNS - 소셜 바로가기 버튼 */
 .btn-sns {width:40px; height:40px; border-radius:12px;text-indent:-9999px; }
-.btn-sns_facebook{background:var(--color-gray-300) url("../../../imgs/ico_sns_facebook.png") no-repeat center / auto 28px; }
-.btn-sns_youtube{ margin:0 8px;background:var(--color-gray-300)  url("../../../imgs/ico_sns_youtube.png") no-repeat center / auto 28px; }
-.btn-sns_instagram{background:var(--color-gray-300)  url("../../../imgs/ico_sns_instagram.png") no-repeat center / auto 28px; }
+.btn-sns_facebook{background:var(--color-gray-300) url("../../imgs/ico_sns_facebook.png") no-repeat center / auto 28px; }
+.btn-sns_youtube{ margin:0 8px;background:var(--color-gray-300)  url("../../imgs/ico_sns_youtube.png") no-repeat center / auto 28px; }
+.btn-sns_instagram{background:var(--color-gray-300)  url("../../imgs/ico_sns_instagram.png") no-repeat center / auto 28px; }
 
 /* badge - 뱃지 */
 .g_badge-txt{ display:inline-block; height:36px; line-height:36px; padding:0 24px; border-radius:32px; background-color:var(--color-brand-400); font-size:18px; font-weight:600; color:var(--color-gray-100); }

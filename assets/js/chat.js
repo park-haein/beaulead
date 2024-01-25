@@ -1,6 +1,5 @@
 // chat.js
 
-
 	/** 채팅위젯 플로팅 버튼 */
 	document.addEventListener('DOMContentLoaded', function() {
 		var btnChatOpen = document.querySelector(".btn-chat_open");
