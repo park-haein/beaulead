@@ -1,6 +1,24 @@
 // chat.js
 
-	/** 채팅위젯 플로팅 버튼 */
+	/** 
+	 * 채팅위젯(플로팅버튼) 위치 
+	 * */
+	document.addEventListener("DOMContentLoaded", function() {
+		var floatChat = document.querySelector(".float_chat");
+	
+		// 버튼위치 설정
+		var newX = 16; // 원하는 X 좌표
+		var newY = 32; // 원하는 Y 좌표
+	
+		// 버튼의 스타일 속성 변경
+		floatChat.style.position = "fixed";
+		floatChat.style.right = newX + "px";
+		floatChat.style.bottom = newY + "px";
+	});
+
+	/** 
+	 * 채팅 레이어 열고 닫기
+	 * */
 	document.addEventListener('DOMContentLoaded', function() {
 		var btnChatOpen = document.querySelector(".btn-chat_open");
 		var floating = document.getElementById("floating");
@@ -12,8 +30,9 @@
 		});
 	});
 
-
-	/** 메시지 전송하기 */
+	/** 
+	 * 메시지 전송하기 
+	 * */
 	function sendChat() {
         const chatInput = document.getElementById('chatInput');
         const message = chatInput.value.trim(); // 공백제거
@@ -33,13 +52,14 @@
 			// 메시지 입력후에 채팅인풋 비우기
             chatInput.value = '';
         }
-
     }
 
-	/** 엔터 누를때도 메시지 전송하기 */
+	/** 
+	 * 엔터 누를때도 메시지 전송하기 
+	 * */
 	document.getElementById('chatInput').addEventListener('keydown', handleKeyPress);
 	function handleKeyPress(event) {
-		if (event.key === 'Enter') {
+		if (event.key === 'Enter') { 
 			sendChat();
 		}
 	}
