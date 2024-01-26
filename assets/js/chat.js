@@ -20,12 +20,10 @@
 	 * 채팅 레이어 열고 닫기
 	 * */
 	document.addEventListener('DOMContentLoaded', function() {
-		var btnChatOpen = document.querySelector(".btn-chat_open");
-		var floating = document.getElementById("floating");
-		var chatLayer = document.querySelector(".chat_layer");
+		var btnChatOpen = document.querySelector(".btn-chat_open"); // 채팅위젯버튼
+		var chatLayer = document.querySelector(".chat_layer"); // 채팅레이어
 
 		btnChatOpen.addEventListener('click', function() {
-			floating.classList.toggle('float_on'); // 플로팅 끄고켜기
 			chatLayer.classList.toggle('on'); // 채팅레이어 끄고켜기
 		});
 	});
@@ -49,7 +47,7 @@
 			}
 			scrollDown();
 
-			// 메시지 입력후에 채팅인풋 비우기
+			// 메시지 입력후에 입력란 비우기
             chatInput.value = '';
         }
     }

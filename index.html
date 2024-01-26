@@ -135,110 +135,109 @@
 	</footer>
 
 	<!-- 채팅위젯(플로팅 버튼) -->
-	<div id="floating" class="">
-		<div class="float_chat">
-			<button class="btn-chat_open"></button><!-- 채팅 위젯 버튼 -->
-			<div class="chat_layer"><!-- 채팅레이어 시작 -->
-				<div class="chat_layer_wrap">
-					<header class="sub_header header_fixed" ><!-- 채팅창 헤더 -->
-						<div class="sub_header__box">
-							<div class="sub_header__btn">
-								<button class="btn-prev">뒤로가기 버튼</button>
-							</div>
-							<div class="chat_layer_thumb"></div>
-							<div class="sub_header__title">
-								<h4>뷰리드 Beaulead</h4>
-								<p>내일 오전 10:00부터 운영해요</p>
-							</div>
-							<div class="sub_header__btn ">
-								<button class="btn-more">더보기 버튼</button>
-							</div>
+	<div class="float_chat">
+		<button class="btn-chat_open"></button><!-- 채팅 위젯 버튼 -->
+		<div class="chat_layer"><!-- 채팅레이어 시작 -->
+			<div class="chat_layer_wrap">
+				<header class="sub_header header_fixed" ><!-- 채팅창 헤더 -->
+					<div class="sub_header__box">
+						<div class="sub_header__btn">
+							<button class="btn-prev">뒤로가기 버튼</button>
 						</div>
-					</header>
-					<div id="chatScroll" class="chat_box"><!-- 채팅뷰어영역 -->
-						<ul class="chat_box_wrap"> <!-- li 한개가 말풍선 1개입니다 -->
-							<li  class="chat_list"><!-- 관리자(기본값 / 왼쪽) -->
-								<div class="chat_guide">
-									<div class="chat_layer_thumb"></div>
-									<h1>채널톡에 문의하기</h1>
-									<p>운영시간 보기 &rarr;</p>
-								</div>
-								<div class="chat_time">오후 10:15</div>
-								<div class="chat_profile">
-									<div class="chat_layer_thumb"></div><!-- 관리자만 프로필 썸네일 출력 -->
-									<div class="chat_bubble">
-										<div class="chat_bubble_nick">관리자</div><!-- 닉네임 -->
-										<div class="chat_bubble_box">
-											<div class="chat_bubble_box-txt"> <!-- 채팅내용 -->
-												<h4>All-In-One AI 메신저, 채널톡!</h4><!-- 강조문구는 h4태그로 감싸주세요 -->
-												<p>올인원 비즈니스 메신저 채널톡입니다.
-												사이트에 들어온 고객을 알아보고 쉽고 빠르게 대화를 시작해보세요!
-												도입 관련 문의는 쉽고 빠르게 채팅으로 진행해보세요
-												</p>
-												<button class="btn-chat_service">채널톡 서비스 활용</button>
-											</div>
-											<div class="chat_bubble_box-info hidden"><!-- 안읽었을때 1 표시 -->
-												<p class="chat_bubble_box_info-unread">1</p>
-											</div>
-										</div>
-										<div class="chat_time">오후 10:15</div>
-									</div>
-								</div>
-							</li>
-							<li  class="chat_list"><!-- 관리자(기본값 / 왼쪽) -->
-								<div class="chat_time">오후 11:23</div>
-								<div class="chat_profile">
-									<div class="chat_layer_thumb"></div><!-- 관리자만 프로필 썸네일 출력 -->
-									<div class="chat_bubble">
-										<div class="chat_bubble_nick">관리자</div><!-- 닉네임 -->
-										<div class="chat_bubble_box">
-											<div class="chat_bubble_box-txt"> <!-- 채팅내용 -->
-												<h4 class="hidden">All-In-One AI 메신저, 채널톡!</h4><!-- 강조문구는 h4태그로 감싸주세요 -->
-												<p>채널톡을 통해 사이트에 들어온 고객을 놓치지 않고,
-													‘올인원’으로 상담을 관리할 수 있습니다 two_hearts
-													채널톡 소개서를 확인하고 궁금한 점을 편하게 채팅으로 남겨주세요 :)
-												</p>
-												<button class="btn-chat_service hidden">채널톡 서비스 활용</button>
-											</div>
-											<div class="chat_bubble_box-info hidden">
-												<p class="chat_bubble_box_info-unread">1</p>
-											</div>
-										</div>
-										<div class="chat_time">오후 10:15</div>
-									</div>
-								</div>
-							</li>
-							
-							<li id="chatBubble" class="chat_list customer"><!-- 고객(오른쪽) -->
-								<div class="chat_time hidden">오후 10:15</div>
-								<div class="chat_profile">
-									<div class="chat_layer_thumb"></div><!-- 고객은 프로필 썸네일 없음 -->
-									<div class="chat_bubble">
-										<div class="chat_bubble_nick">channel</div><!-- 고객은 닉네임 없음 -->
-										<div class="chat_bubble_box">
-											<div  class="chat_bubble_box-txt"> <!-- 채팅내용 -->
-												<h4 class="hidden">All-In-One AI 메신저, 채널톡!</h4><!-- 강조문구는 h4태그로 감싸주세요 -->
-												<p>채널톡은 어떤 서비스인가요?</p>
-												<button class="btn-chat_service hidden">채널톡 서비스 활용</button>
-											</div>
-											<div class="chat_bubble_box-info hidden">
-												<p class="chat_bubble_box_info-unread">1</p>
-											</div>
-										</div>
-										<div class="chat_time">오후 10:15</div>
-									</div>
-								</div>
-							</li>
-						</ul>
+						<div class="chat_layer_thumb"></div>
+						<div class="sub_header__title">
+							<h4>뷰리드 Beaulead</h4>
+							<p>내일 오전 10:00부터 운영해요</p>
+						</div>
+						<div class="sub_header__btn ">
+							<button class="btn-more">더보기 버튼</button>
+						</div>
 					</div>
-
-					<div class="chat_input"><!-- 채팅입력영역 -->
-						<div class="chat_input_wrap">
-							<div class="chat_input__contents">
-								<input id="chatInput" class="chat_input-area" placeholder="메시지를 입력하세요"></input>
+				</header>
+				<div id="chatScroll" class="chat_box"><!-- 채팅뷰어영역 -->
+					<ul class="chat_box_wrap"> <!-- li 한개가 말풍선 1개입니다 -->
+						<li  class="chat_list"><!-- 관리자(기본값 / 왼쪽) -->
+							<div class="chat_guide"><!-- 채팅방 입장시 최초 1회 출력 -->
+								<div class="chat_layer_thumb"></div>
+								<h1>채널톡에 문의하기</h1>
+								<p>운영시간 보기 &rarr;</p>
 							</div>
-							<button class="btn-chat_send" onclick="sendChat()">전송</button><!-- 클래스 on 추가시 활성화 -->
+							<div class="chat_time">오후 10:15</div>
+							<div class="chat_profile">
+								<div class="chat_layer_thumb"></div><!-- 관리자만 프로필 썸네일 출력 -->
+								<div class="chat_bubble">
+									<div class="chat_bubble_nick">관리자</div><!-- 닉네임 -->
+									<div class="chat_bubble_box">
+										<div class="chat_bubble_box-txt"> <!-- 채팅내용 -->
+											<h4>All-In-One AI 메신저, 채널톡!</h4><!-- 강조문구는 h4태그로 감싸주세요 -->
+											<p>올인원 비즈니스 메신저 채널톡입니다.
+											사이트에 들어온 고객을 알아보고 쉽고 빠르게 대화를 시작해보세요!
+											도입 관련 문의는 쉽고 빠르게 채팅으로 진행해보세요
+											</p>
+											<button class="btn-chat_service">채널톡 서비스 활용</button>
+										</div>
+									</div>
+									<div class="chat_time">오후 10:15</div>
+								</div>
+							</div>
+						</li>
+						<li  class="chat_list"><!-- 관리자(기본값 / 왼쪽) -->
+							<div class="chat_guide hidden">
+								<div class="chat_layer_thumb"></div>
+								<h1>채널톡에 문의하기</h1>
+								<p>운영시간 보기 &rarr;</p>
+							</div>
+							<div class="chat_time hidden">오후 11:23</div>
+							<div class="chat_profile">
+								<div class="chat_layer_thumb"></div><!-- 관리자만 프로필 썸네일 출력 -->
+								<div class="chat_bubble">
+									<div class="chat_bubble_nick">관리자</div><!-- 닉네임 -->
+									<div class="chat_bubble_box">
+										<div class="chat_bubble_box-txt"> <!-- 채팅내용 -->
+											<h4 class="hidden">All-In-One AI 메신저, 채널톡!</h4><!-- 강조문구는 h4태그로 감싸주세요 -->
+											<p>채널톡을 통해 사이트에 들어온 고객을 놓치지 않고,
+												‘올인원’으로 상담을 관리할 수 있습니다 two_hearts
+												채널톡 소개서를 확인하고 궁금한 점을 편하게 채팅으로 남겨주세요 :)
+											</p>
+											<button class="btn-chat_service hidden">채널톡 서비스 활용</button>
+										</div>
+									</div>
+									<div class="chat_time">오후 11:23</div>
+								</div>
+							</div>
+						</li>
+						
+						<li id="chatBubble" class="chat_list customer"><!-- 고객(오른쪽) -->
+							<div class="chat_guide hidden">
+								<div class="chat_layer_thumb"></div>
+								<h1>채널톡에 문의하기</h1>
+								<p>운영시간 보기 &rarr;</p>
+							</div>
+							<div class="chat_time hidden">오후 10:15</div>
+							<div class="chat_profile">
+								<div class="chat_layer_thumb"></div><!-- 고객은 프로필 썸네일 없음 -->
+								<div class="chat_bubble">
+									<div class="chat_bubble_nick">channel</div><!-- 고객은 닉네임 없음 -->
+									<div class="chat_bubble_box">
+										<div  class="chat_bubble_box-txt"> <!-- 채팅내용 -->
+											<h4 class="hidden">All-In-One AI 메신저, 채널톡!</h4><!-- 강조문구는 h4태그로 감싸주세요 -->
+											<p>채널톡은 어떤 서비스인가요?</p>
+											<button class="btn-chat_service hidden">채널톡 서비스 활용</button>
+										</div>
+									</div>
+									<div class="chat_time hidden">오후 11:23</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="chat_input"><!-- 채팅입력영역 -->
+					<div class="chat_input_wrap">
+						<div class="chat_input__contents">
+							<input id="chatInput" class="chat_input-area" placeholder="메시지를 입력하세요"></input>
 						</div>
+						<button class="btn-chat_send" onclick="sendChat()">전송</button><!-- 클래스 on 추가시 활성화 -->
 					</div>
 				</div>
 			</div>
@@ -246,7 +245,7 @@
 	</div>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script src="./assets/js/main.js"></script>
+
+<script src="./assets/js/common.js"></script>
 <script src="./assets/js/chat.js"></script>
 </html>

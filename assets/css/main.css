@@ -34,7 +34,7 @@
 
 
 /* tablet 규격 */
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 768px){
     .g_header{padding:12px;}
     .g_header_wrap{justify-content:center;}
     .g_nav{display:none; }
